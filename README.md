@@ -1,121 +1,69 @@
 # Renesas RA MCU Software
 
-Welcome to the starting point for software development with Renesas RA Microcontrollers.
+Welcome to the software development starting point for **Renesas RA microcontrollers**.
 
-The RA family is supported by the Flexible Software Package (FSP), providing drivers, middleware, RTOS integration, security components, development tools, and example projects for rapid application development. 【1-1935fa】【2-07d7f5】
+Use this repository to select the right development path and access the official software, examples, documentation, tools, and support resources for the RA family.
 
----
+## Choose Your Starting Point
 
-## Getting Started
+| I want to... | Start here |
+|---|---|
+| Create a new RA project | [Flexible Software Package](https://github.com/renesas/fsp) |
+| Evaluate a peripheral or feature | [RA Example Projects](https://github.com/renesas/ra-fsp-examples) |
+| Install or update the development environment | [FSP Releases](https://github.com/renesas/fsp/releases) |
+| Learn how to use FSP | [FSP Documentation](https://renesas.github.io/fsp/) |
+| Select an RA device or evaluation kit | [RAps://www.renesas.com/ra |
+| Get technical assistance | [Renesas Engineering Community](https://community.renesas.com/) |
 
-Choose the path that best matches your development goals.
+## Start a New RA Project
 
-### New to RA MCUs?
+1. Select an RA microcontroller or evaluation kit from the [RA Product Portfolio](https://www.renesas.comtest development environment from [FSP Releases](https://github.com/renesas/fsp/releases).
+3. Follow the [FSP Getting Started documentation](https://renesas.github.io/fsp/).
+4. Find a reference project for your board or feature in [RA Example Projects](https://github.com/renesas/ra-fsp-examples).
 
-Start here:
+## Flexible Software Package
 
-1. Review the RA device portfolio and select a device.
-2. Install e² studio and the Flexible Software Package (FSP).
-3. Explore example projects for your evaluation kit or target device.
-4. Build and run your first application.
+The **Flexible Software Package (FSP)** is the primary software platform for RA microcontrollers.
 
-| Resource | Link |
-|-----------|------|
-| RA Product Portfolio | https://www.renesas.com/ra |
-| Flexible Software Package (FSP) | [GitHub Repository](https://github.com/renesas/fsp) |
-| FSP Documentation | [Documentation](https://renesas.github.io/fsp/) |
-| Example Projects | [RA Examples](https://github.com/renesas/ra-fsp-examples) |
+It includes:
 
----
-
-## Software Development
-
-### Flexible Software Package (FSP)
-
-The primary software platform for RA MCUs.
-
-Provides:
-
-- Hardware Abstraction Layer (HAL)
-- Peripheral Drivers
+- Board support packages
+- Peripheral drivers
 - Middleware
-- Security Components
-- Communication Stacks
-- RTOS Integration
-- Configuration Tools
+- Security components
+- Connectivity stacks
+- RTOS integration
+- Configuration and code-generation support
 
-➡️ [Explore FSP](https://github.com/renesas/fsp)
+[Explore the FSP repository](https://github.com/renesas/fsp)
 
-➡️ [View Releases](https://github.com/renesas/fsp/releases)
+## Find an Example Project
 
-➡️ [Read Documentation](https://renesas.github.io/fsp/)
+The RA example repository contains two types of projects:
 
----
+- **Example Projects** demonstrate the use of individual FSP modules and peripherals.
+- **Application Projects** demonstrate complete solutions across areas such as connectivity, security, graphics, and embedded applications.
 
-## Example Projects
+[Browse RA example and application projects](https://github.com/renesas/ra-fsp-examples)
 
-Ready-to-run projects demonstrating:
+## Development Resources
 
-- Peripheral Interfaces
-- Connectivity
-- Security
-- Graphics
-- RTOS Integration
-- End Applications
-
-➡️ [Browse RA Example Projects](https://github.com/renesas/ra-fsp-examples)
-
----
-
-## RTOS Development
-
-RA devices support multiple software ecosystems.
-
-| RTOS | Resources |
-|--------|----------|
-| FreeRTOS | Available through FSP |
-| Eclipse ThreadX | Available through FSP |
-| Zephyr RTOS | [Upstream Zephyr Support](https://github.com/zephyrproject-rtos/zephyr) |
-
----
-
-## Tools
-
-| Tool | Purpose |
-|--------|----------|
-| e² studio | IDE, build, debug, configuration |
-| FSP Configuration Tools | Peripheral and middleware configuration |
-| Renesas Flash Programmer | Device programming |
-
----
-
-## Development Boards
-
-Looking for hardware to get started?
-
-➡️ https://www.renesas.com/ra
-
----
+| Resource | Purpose |
+|---|---|
+| [FSP Documentation](https://renesas.github.io/fsp/) | Getting-started guides, FSP architecture, module documentation, and API reference |
+| [FSP Releases](https://github.com/renesas/fsp/releases) | FSP packages, development environment installers, and release information |
+| [RA Product Portfolio](https://www.renesas.com/ra) | , documentation, and product resources |
+| [Renesas Engineering Community](https://community.renesas.com/) | Technical questions, discussions, and community support |
 
 ## Support
 
-Need help?
+Before requesting assistance:
 
-- Review documentation
-- Search existing GitHub issues
-- Visit the Renesas Engineering Community
-
-➡️ [Renesas Engineering Community](https://community.renesas.com/)
-
----
-
-## Related Repositories
-
-| Repository | Description |
-|------------|-------------|
-| [renesas/fsp](https://github.com/renesas/fsp) | Flexible Software Package |
-| [renesas/ra-fsp-examples](https://github.com/renesas/ra-fsp-examples) | Example and application projects |
+1. Review the relevant repository README and documentation.
+2. Search existing issues in the source repository.
+3. Open a GitHub issue where issue tracking is enabled.
+4. Visit the [Renesas Engineering Community](https://community.renesas.com/) for additional technical support.
 
 ---
 
-**Start building with Renesas RA Microcontrollers.**
+**Start developing with Renesas RA microcontrollers.**
