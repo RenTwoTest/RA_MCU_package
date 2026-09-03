@@ -1,5 +1,3 @@
-# RA_MCU_package
-
 # Renesas RA MCU Software
 
 Welcome to the starting point for software development with **Renesas RA microcontrollers**.
